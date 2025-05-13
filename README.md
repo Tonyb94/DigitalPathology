@@ -3,7 +3,7 @@
 ###
 
 <div align="center">
-  <img height="600" src="https://github.com/Tonyb94/DigitalPathology/blob/master/PIPELINE.jpeg"  />
+  <img height="500" src="https://github.com/Tonyb94/DigitalPathology/blob/master/PIPELINE.jpeg"  />
 </div>
 
 ###
