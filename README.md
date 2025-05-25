@@ -25,13 +25,17 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 
 ## 🔬 Methodology
 
-- Feature extraction from tumor tiles using various extractors
+- Feature extraction from tumor tiles using various extractors 
+  - GLCM PyRadiomics
+  - MSI prediction
+  - Ctranspath
 - Dimensionality reduction with:
   - Principal Component Analysis (PCA)
   - Pearson Correlation
 - Feature combination across extractors
 - Clustering of tumor tiles using the **Bag of Visual Words (BoVW)** technique
-- Phenotype assignment using a **Self-Organizing Map (SOM)**
+  - Phenotype assignment using a **Self-Organizing Map (SOM)**
+  - Aggregation of Patients Histogram of tiles **Dendrogram**
 - Cluster evaluation using the **Silhouette score**
 - Clinical interpretation and validation with an oncologist
 
@@ -40,11 +44,17 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 ## 🔄 Project Pipeline
 
 1. **Tile extraction** from histopathological images
+    - Tasselization
+    - Tumor tissue coordinates detection
 2. **Feature extraction** using multiple extractors
+    - GLCM (PyRadiomics)
+    - MSI detection model
+    - Ctranspath
 3. **Dimensionality reduction** (PCA, Pearson)
 4. **Visual vocabulary creation** (BoVW)
-5. **Clustering with Self-Organizing Map**
-6. **Cluster evaluation** with Silhouette metric
+    - Phenotyping Tumoral tiles with Self-Organizing Map Network 3x3
+    - Aggregation of patients by histograms of phenotypes
+6. **Cluster evaluation** with Silhouette metric computation
 7. **Clinical review** to validate identified clusters and phenotypes
 
 ---
