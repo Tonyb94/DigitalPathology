@@ -1,13 +1,53 @@
-<h2 align="left">Comparison by Clustering of Feature Extractors from Colorectal Tumor Histopathology Tiles Aggregated with Bag of Visual Words</h2>
+<h2 align="center">🧬 Comparison by Clustering of Feature Extractors from Colorectal Tumor Histopathology Tiles Aggregated with Bag of Visual Words</h2>
 
-###
+<p align="center">
+  <img src="https://github.com/Tonyb94/DigitalPathology/blob/master/PIPELINE.jpeg" height="400" alt="Project Pipeline" />
+</p>
 
-<div align="center">
-  <img height="500" src="https://github.com/Tonyb94/DigitalPathology/blob/master/PIPELINE.jpeg"  />
-</div>
+---
 
-###
+## 📝 Project Description
 
-<p align="left">Colorectal cancer (CRC) is the third most common type of cancer in humans and the third leading cause of cancer-related death in both men and women, representing a significant global public health issue. The aim of this study is to analyze and attempt to extract significant biomarkers from histopathological images obtained from surgically resected colorectal tumor samples of two groups of subjects: the IANG group, under the age of 40 (9 patients), and the OLD group, over the age of 40 (8 patients). These high-resolution images, measuring (83456 × 185600) pixels, were stained with hematoxylin and eosin (H&E) and acquired with a Mirax scanner at the Niguarda Hospital in Milan. This thesis is inspired by the need to extract morphological biomarkers useful for precision medicine to organize appropriate and targeted treatments for patients, aiming to avoid unnecessary suffering and costs. To achieve this goal, an exploratory analysis was conducted on the clustering of patient images, based on the extraction of features using different extractors applied to the tumor tissue divided into tiles. The extracted features were then reduced in dimensionality using two techniques: Principal Component Analysis (PCA) and Pearson Correlation, which were also employed to combine the different extractors. The clustering of tumor tiles was carried out using the Bag of Visual Words (BoVW) technique, with a Self-Organizing Map (SOM) used to assign tumor phenotypes, in order to explore them and aggregate patients, thus identifying new potential biomarkers. The motivation behind this approach lies in the fact that some subjects in the IANG group show a therapeutic response similar to that of the OLD group. These types of analyses represent a significant challenge for precision medicine, for several reasons: H&E histopathological images are a faster and less expensive tool compared to immunohistochemistry (IHC) and PCR analyses; however, their interpretation and preparation involve inherent variability that can introduce diagnostic bias. Moreover, the number of expert pathologists responsible for the manual preparation and analysis of the samples has been declining for several years. Histopathological images also pose a challenge for computer vision and image processing techniques, particularly due to their extremely high resolution, which causes memory and RAM issues during processing. The clustering results of the extracted phenotypes were evaluated using the silhouette metric, which allowed for the analysis of the coherence and separation of the generated groups. These results were presented to an oncologist to compare the generated clusters with the clinical characteristics of the patients, with the goal of identifying new potential clinically relevant biomarkers</p>
+Colorectal cancer (CRC) is the third most common type of cancer and the third leading cause of cancer-related death worldwide. This study aims to analyze and extract potential morphological biomarkers from histopathological images of surgically resected colorectal tumors from two subject groups:
 
-###
+- **IANG group**: patients under 40 years old (9 patients)
+- **OLD group**: patients over 40 years old (8 patients)
+
+These ultra-high-resolution images (83456 × 185600 pixels) were stained with Hematoxylin and Eosin (H&E) and acquired using a Mirax scanner at Niguarda Hospital in Milan.
+
+---
+
+## 🎯 Objective
+
+The goal is to identify new tumor phenotypes and potential biomarkers using unsupervised learning techniques, based on clustering tiles from histopathological images using different feature extractors and aggregation methods.
+
+---
+
+## 🔬 Methodology
+
+- Feature extraction from tumor tiles using various extractors
+- Dimensionality reduction with:
+  - Principal Component Analysis (PCA)
+  - Pearson Correlation
+- Feature combination across extractors
+- Clustering of tumor tiles using the **Bag of Visual Words (BoVW)** technique
+- Phenotype assignment using a **Self-Organizing Map (SOM)**
+- Cluster evaluation using the **Silhouette score**
+- Clinical interpretation and validation with an oncologist
+
+---
+
+## 🔄 Project Pipeline
+
+1. **Tile extraction** from histopathological images
+2. **Feature extraction** using multiple extractors
+3. **Dimensionality reduction** (PCA, Pearson)
+4. **Visual vocabulary creation** (BoVW)
+5. **Clustering with Self-Organizing Map**
+6. **Cluster evaluation** with Silhouette metric
+7. **Clinical review** to validate identified clusters and phenotypes
+
+---
+
+## 📁 Project Structure
+
