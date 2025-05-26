@@ -8,6 +8,8 @@
 
 ## 📝 Project Description
 
+---
+
 Colorectal cancer (CRC) is the third most common type of cancer and the third leading cause of cancer-related death worldwide. This study aims to analyze and extract potential morphological biomarkers from histopathological images of surgically resected colorectal tumors from two subject groups:
 
 - **IANG group**: patients under 40 years old (9 patients)
@@ -21,11 +23,15 @@ Ref.: (http://webthesis.biblio.polito.it/id/eprint/33667)
 
 ## 🎯 Objective
 
+---
+
 The goal is to identify new tumor phenotypes and potential biomarkers using unsupervised learning techniques, based on clustering tiles from histopathological images using different feature extractors and aggregation methods.
 
 ---
 
 ## 🔬 Methodology
+
+---
 
 - Feature extraction from tumor tiles using various extractors 
   - GLCM PyRadiomics
@@ -43,6 +49,8 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 ---
 
 ## 🔄 Project Pipeline
+
+---
 
 1. **Tile extraction** from histopathological images
     - Tasselization
@@ -66,6 +74,7 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 
 ## 🧠💻 Code Implementation References
 
+---
 
 1. **Colon Tissues Classification in Histopathological image** : [Predicting survival from colorectal cancer histology slides using deep learning: A retrospective multicenter study] (https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002730)
 
