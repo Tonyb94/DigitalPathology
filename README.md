@@ -15,7 +15,7 @@ Colorectal cancer (CRC) is the third most common type of cancer and the third le
 
 These ultra-high-resolution images (83456 × 185600 pixels) were stained with Hematoxylin and Eosin (H&E) and acquired using a Mirax scanner at Niguarda Hospital in Milan.
 
-Ref.: (http://webthesis.biblio.polito.it/id/eprint/33667)
+MsC Thesis link.: (http://webthesis.biblio.polito.it/id/eprint/33667)
 
 ---
 
