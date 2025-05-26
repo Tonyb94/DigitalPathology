@@ -15,7 +15,7 @@ Colorectal cancer (CRC) is the third most common type of cancer and the third le
 
 These ultra-high-resolution images (83456 × 185600 pixels) were stained with Hematoxylin and Eosin (H&E) and acquired using a Mirax scanner at Niguarda Hospital in Milan.
 
-MsC Thesis link.: (http://webthesis.biblio.polito.it/id/eprint/33667)
+Ref.: (http://webthesis.biblio.polito.it/id/eprint/33667)
 
 ---
 
@@ -31,10 +31,9 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
   - GLCM PyRadiomics
   - MSI prediction
   - Ctranspath
-- Dimensionality reduction with:
+- Dimensionality reduction and Feature combination across extractors with:
   - Principal Component Analysis (PCA)
   - Pearson Correlation
-- Feature combination across extractors
 - Clustering of tumor tiles using the **Bag of Visual Words (BoVW)** technique
   - Phenotype assignment using a **Self-Organizing Map (SOM)**
   - Aggregation of Patients Histogram of tiles **Dendrogram**
@@ -50,7 +49,7 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
     - Tumor tissue coordinates detection
 2. **Feature extraction** using multiple extractors
     - GLCM (PyRadiomics)
-    - MSI prediction model
+    - MSI detection model
     - Ctranspath
 3. **Dimensionality reduction** (PCA, Pearson)
 4. **Visual vocabulary creation** (BoVW)
@@ -62,6 +61,8 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 ---
 
 ## 📁 Project Structure
+
+---
 
 ## Coding References
 
