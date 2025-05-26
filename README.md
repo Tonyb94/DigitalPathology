@@ -64,14 +64,15 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
 
 ---
 
-## Coding References
+## 🧠💻 Code Implementation References
+
 
 1. **Colon Tissues Classification in Histopathological image** : [Predicting survival from colorectal cancer histology slides using deep learning: A retrospective multicenter study] (https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002730)
 
 2. **Extractors**:
 
-    - GLCM **PyRadiomics**: [Computational Radiomics System to Decode the Radiographic Phenotype] ( https://doi.org/10.1158/0008-5472.CAN-17-0339)
-    - **MSI predictor** used as extractor: [Developmaent and interpretation of a pathomic-based model for the prediction of microsatellite instability in  Colorectal Cancer] (https://pmc.ncbi.nlm.nih.gov/articles/PMC7532670/)
-    - **Ctranspath**: [Transformer-based unsupervised contrastive learning for histopathological image classification] (https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043)
+    - GLCM **PyRadiomics** : [Computational Radiomics System to Decode the Radiographic Phenotype] ( https://doi.org/10.1158/0008-5472.CAN-17-0339)
+    - **MSI predictor** used as extractor : [Developmaent and interpretation of a pathomic-based model for the prediction of microsatellite instability in  Colorectal Cancer] (https://pmc.ncbi.nlm.nih.gov/articles/PMC7532670/)
+    - **Ctranspath** : [Transformer-based unsupervised contrastive learning for histopathological image classification] (https://www.sciencedirect.com/science/article/abs/pii/S1361841522002043)
 
 3. **Stain Normalization Macenko**: [A method for normalizing histology slides for quantitative analysis] (https://ieeexplore.ieee.org/abstract/document/5193250) [Macenko implementation Github Repository] : ()
