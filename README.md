@@ -50,7 +50,7 @@ The goal is to identify new tumor phenotypes and potential biomarkers using unsu
     - Tumor tissue coordinates detection
 2. **Feature extraction** using multiple extractors
     - GLCM (PyRadiomics)
-    - MSI detection model
+    - MSI prediction model
     - Ctranspath
 3. **Dimensionality reduction** (PCA, Pearson)
 4. **Visual vocabulary creation** (BoVW)
